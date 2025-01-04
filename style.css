@@ -1,0 +1,595 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 700px;
+    margin-top: 10px;
+    background-color: blue;
+}
+
+.anchor {
+    height: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.anchor a {
+    margin-bottom: 30px;
+    color: gray;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+
+.anchor a:hover {
+    color: rgb(219, 96, 137);
+}
+
+.logo-image {
+    margin-left: 30px;
+
+}
+
+.add-to-cart {
+    margin-left: 100px;
+}
+
+/* de simone */
+
+.simone {
+    display: flex;
+    height: 500px;
+    background-color: rgb(238, 236, 236);
+}
+
+.sim-para {
+    width: 580px;
+    display: inline-block;
+    height: 500px;
+}
+
+.sim-pic {
+    align-items: end;
+    background: url(Assets/sim.jpeg );
+    background-size: cover;
+    width: 780px;
+    display: inline-block;
+    height: 500px;
+}
+
+.simone-had {
+    font-size: 45px;
+    margin-top: 130px;
+    margin-left: 90px;
+}
+
+.simone-par {
+    font-size: 17px;
+    margin-left: 90px;
+}
+
+/* waves */
+.waves {
+    height: 150px;
+    background-color: aqua;
+    background: url(Assets/pink-waves.jpeg);
+    background-size: cover;
+}
+
+.waves2 {
+    height: 150px;
+    background-color: aqua;
+    background: url(Assets/blue-waves.jpeg);
+    background-size: cover;
+}
+
+.waves3 {
+    height: 150px;
+    background-color: aqua;
+    background: url(Assets/orage-waves.jpeg);
+    background-size: cover;
+}
+
+.waves4 {
+    height: 100px;
+    background-color: aqua;
+    background: url(Assets/Orange-wave-4.jpeg);
+    background-size: cover;
+}
+
+
+/* professor */
+.professor {
+    display: flex;
+    height: 650px;
+}
+
+.pro-pic {
+    width: 650px;
+    display: inline-block;
+    height: 750px;
+    margin: 10px;
+}
+
+.pro-boxes {
+    width: 180px;
+    display: inline-block;
+    height: 750px;
+    margin: 10px;
+
+}
+
+.pro-content {
+    width: 1050px;
+    display: inline-block;
+    height: 750px;
+    margin: 10px;
+
+}
+
+.pro-picture {
+    background-color: rgb(245, 235, 223);
+    border: rgb(132, 225, 235), solid, 5px;
+    box-shadow: 20px;
+    background: url(Assets/professor_desimone-1.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(181, 179, 179);
+
+}
+
+.pre-box {
+    text-align: center;
+    border-radius: 9px;
+    border-style: dotted;
+    border-color: rgb(58, 150, 225);
+    display: block;
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+.pro-had {
+    font-size: 55PX;
+}
+
+.pro-paragraph {
+    margin-top: 25px;
+    font-size: 18px;
+    color: rgb(104, 102, 102);
+}
+
+.pro-button {
+
+    border-radius: 50px;
+    border: 50px;
+    margin-top: 70px;
+    display: block;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(58, 150, 225);
+}
+
+/* work */
+.work {
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    height: 500px;
+}
+
+.work-content {
+    display: inline-block;
+    width: 850px;
+    margin: 10px;
+    height: 500px;
+}
+
+.work-img {
+    background: url(Assets/Cycle.png);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 690px;
+    height: 500px;
+}
+
+.work-had {
+    font-size: 50px;
+    text-align: center;
+}
+
+.work-para {
+    color: rgb(104, 102, 102);
+    margin-left: 80px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+/* benefits */
+.benifits {
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    height: 660px;
+}
+
+.benefits-img {
+    background-size: cover;
+    background-position: center;
+    background: url(Assets/benifits.jpeg);
+    height: 680px;
+    width: 200px;
+    margin: 10px;
+}
+
+.benefits-content {
+    border-radius: 9px;
+    border-style: dashed;
+    border-color: rgb(12, 16, 20);
+    height: 650px;
+    width: 1000px;
+    margin: 10px;
+}
+
+.ben-para {
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.ben-had {
+    margin-left: 60px;
+
+}
+
+/* formulation */
+.formula {
+    height: 930px;
+}
+
+.for-had {
+    font-size: 65px;
+    margin-left: 50px;
+}
+
+.for-para {
+    margin-left: 65px;
+
+}
+
+/* pack */
+.packaging {
+
+    justify-content: flex-start;
+    display: block;
+    text-align: center;
+    height: 100px;
+    background-color: rgb(238, 236, 236);
+
+}
+
+.wave-pack {
+    height: 300px;
+    background-color: rgb(238, 236, 236);
+}
+
+.slide {
+    height: 500px;
+}
+
+.instruction {
+    height: 250px;
+}
+
+.para-instruction {
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+/* faq */
+.faq {
+    height: 630px;
+}
+
+.faq-con {
+    margin-left: 120px;
+    width: 1000px;
+    border: 2px solid grey;
+    border-radius: 60px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.faq-con h4 {
+    margin-left: 50px;
+}
+
+/* form */
+.form {
+    position: absolute;
+    display: flex;
+    margin-left: 90px;
+    width: 1100px;
+    background-color: rgb(238, 236, 236);
+    border-radius: 50px;
+    height: 600px;
+    margin-top: 80px
+}
+
+.form-for {
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 450px;
+    height: 530px;
+    background-color: rgb(238, 236, 236);
+    display: inline-block;
+}
+
+.form-img {
+    background: url(Assets/footer.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 620px;
+    height: 530px;
+    background-color: rgb(238, 236, 236);
+    display: inline-block;
+}
+
+/* footer */
+.footer {
+    margin-top: 500px;
+    border-radius: 50px 50px 0px 0px;
+    background-color: dodgerblue;
+    height: 300px;
+}
+
+/*  */
+label {
+    margin-left: 25px;
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input,
+textarea {
+    margin-left: 25px;
+    margin-top: 4px;
+    padding: 8px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 350px;
+}
+
+.btn {
+    width: 350px;
+    margin-top: 10px;
+}
+
+.radio {
+    display: flex;
+}
+
+.radio:checked {
+    color: pink;
+}
+
+.lastimg h5 {
+    font-size: 40px;
+}
+
+.label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input,
+textarea {
+    margin-top: 4px;
+    padding: 8px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 350px;
+}
+
+.btn {
+    margin-left: 25px;
+    border: solid dodgerblue;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    height: 50px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.radio {
+    display: flex;
+}
+
+.radio:checked {
+    margin-left: 50px;
+    color: pink;
+}
+
+.lastimg h5 {
+    font-size: 40px;
+}
+
+.form-para {
+    margin-left: 25px;
+
+}
+.foot-had{
+    color: white;
+    text-align: center;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color:aliceblue
+}
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+.swiper{
+    width: 600px;
+}
+.alert{
+    width: 100%;
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+
+}
+
+.section-6-heading{
+    padding: 6rem;
+    text-align: center;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(173, 173, 173, 0.244) 81%);
+}
+.main-images{
+    text-align: center;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+
+}
+.image-1{
+    padding: 4rem 3rem ;
+    width: 28%;
+    height: auto;
+}
+.image-2{
+
+    width: 30%;
+    height: auto;
+
+}
+.image-3{
+    padding: 4rem 3rem;
+    width: 28%;
+    height: auto;
+}
+
+.cart-section {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: #f9f9f9;
+    box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+
+}
+.close{
+    width: 25%;
+    position: fixed;
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    bottom: 3rem;
+}
+.cart-section .clear{
+    width: 25%;
+    position: fixed;
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    bottom: 0;
+}
+.cart-section.hidden {
+    visibility: hidden;
+}
+
+.cart-section.visible {
+    visibility: visible;
+}
+
+
+.image-text{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.btn-shop{
+    color: #333;
+    padding: 0.7rem 1.5rem;
+    border:1px solid #333;
+    border-radius: 25px;
+}
+cart-section {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: #f9f9f9;
+    box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+
+}
+.close{
+    width: 25%;
+    position: fixed;
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    bottom: 3rem;
+}
+.cart-section .clear{
+    width: 25%;
+    position: fixed;
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+    bottom: 0;
+}
+.cart-section.hidden {
+    visibility: hidden;
+}
+
+.cart-section.visible {
+    visibility: visible;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
