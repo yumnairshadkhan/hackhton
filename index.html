@@ -32,10 +32,9 @@
         <a>contact us </a>
         <a>recipe</a>
         <a class="add-to-cart"><i class="fa-solid fa-bag-shopping">
-                <span class="bag-icon" onclick="toggleCart();"><i class="bi bi-handbag"></i><span
-                        id="cart-count">0</span>
-                </span>
-            </i></a>
+            <span class="bag-icon" onclick="toggleCart();"><i class="bi bi-handbag"></i><span id="cart-count">0</span>
+        </span>    
+        </i></a>
 
     </div>
     <!-- de simone -->
@@ -272,8 +271,7 @@
             <p class="image-text">CDS22-formula<br><span style="font-size:1.3rem ; color: rgb(219, 5, 69);">900
                     billion sachets</span></p>
             <p>Superior power Potency, 900 billion live bacteria per sachet</p><br>
-            <button id="shop-now" class="btn-shop" data-name="product-1" data-price="200" type="submit">SHOP
-                NOW</button>
+            <button id="shop-now" class="btn-shop" data-name="product-1" data-price="200" type="submit" >SHOP NOW</button>
         </div>
         <div class="image-2">
             <img src="assets/cds_112_v2-1.png" alt="" width="350">
@@ -282,8 +280,7 @@
             <p>Strong and convenient <br>Potency, <b>450 billion live bacteria per sachet</b> <br>Format, <b>Box of
                     12
                     sachets</b></p>
-            <button id="shop-now" class="btn-shop" data-name="product-2" data-price="800" type="submit">SHOP
-                NOW</button>
+            <button id="shop-now" class="btn-shop" data-name="product-2" data-price="800" type="submit">SHOP NOW</button>
         </div>
         <div class="image-3">
             <img src="assets/cds_450_v2-1.png" alt="" width="280">
@@ -291,8 +288,7 @@
                     billion sachets</span></p>
             <p>Efficient and flexible Potency, <b>112 billion live bacteria per capsule</b> Format: <b>Box of 20
                     individually packaged capsules</b></p>
-            <button id="shop-now" class="btn-shop" data-name="product-3" data-price="500" type="submit">SHOP
-                NOW</button>
+            <button id="shop-now" class="btn-shop" data-name="product-3" data-price="500" type="submit">SHOP NOW</button>
         </div>
         <span class="icon-left-right"><i class="bi bi-chevron-right" style="color: white;"></i></span>
     </div>
@@ -375,9 +371,9 @@
                         <form id="ContactForm">
                             <label for="name">Name</label>
                             <div class="alert">your message</div>
-                            <input type="text" id="name" placeholder="Enter your Name" required class="name">
+                            <input type="text" id="name" placeholder="Enter your Name" required>
                             <label for="email">Email* </label>
-                            <input type="email" id="email" placeholder="Enter your E-mail" required class="name">
+                            <input type="email" id="email" placeholder="Enter your E-mail" required>
                             <label for="message">Message* </label>
                             <textarea name="message" id="message" placeholder="Enter your message" rows="7"
                                 required></textarea>
@@ -398,9 +394,13 @@
     <div class="footer">
         <h1 class="foot-had">EOS2021 S.R.L. Via Nuoro, 16 00040 Ardea (Roma) P.iva: 02102651003</h1>
     </div>
+<script src="index.js"></script>
     <!-- javascript -->
-
-    <script src="index.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+<!-- Firebase "https://cdnjs.cloudflare.com/ajax/lib..." -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script> -->
+    <!-- <script src="index.js"></script> -->
+    <!-- fire -->
     <script src="firebase.js" type="module"></script>
 
 
